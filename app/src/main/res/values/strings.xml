@@ -3,4 +3,6 @@
     <string name="numerando">Valor 1</string>
     <string name="sumando" >Valor 2</string>
     <string name="btnsuma" >Sumar</string>
+    <string name="suma">Sumar</string>
+    <string name="restar">Restar</string>
 </resources>

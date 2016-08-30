@@ -49,11 +49,10 @@
         android:layout_height="wrap_content"
         android:text="@string/btnsuma"
         android:id="@+id/btnSumar"
-        android:layout_below="@+id/txtv2"
+        android:onClick="radiobtn"
+        android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="45dp"
-        android:onClick="sumar" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -62,4 +61,27 @@
         android:layout_below="@+id/txtv2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblResultado"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/suma"
+            android:id="@+id/rbtnS" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restar"
+            android:id="@+id/rbtnR" />
+
+    </RadioGroup>
+
 </RelativeLayout>
